@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+<div class="heading">
+  <h1>WeaveWatcher</h1>
+
+</div>
+<h5 id="entrymsg">Welcome To WeaveWatcher! (version 0.2) Now you can easily explore the latest stored content.
+<br>Old transactions will automatically be added. Click the button to get the transactions from the current block or search a block</h5>
+<br>
+<div class="navbar">
+<input id="clickMe" type="button" value="Get Latest Txs" onclick="javascript:MakeItHappen()" />
+    <b>Block:</b> <input type="number" id="inputblock" onclick="javascript:MakeItHappenCustom()">
+    <input type="submit" value="Submit" onclick="javascript:MakeItHappenCustom()">
+</div>
+<div class="main" id="main">
+  <div class="indcont">
+    <iframe id="first" src="https://arweave.net/FVVMrNJacdyxNMXTwsQlOp8E-1kReNweheIYs89tw_E"></iframe> 
+  </div>
+</div>
+
+  </body>
+  <script src="js/main.js" charset="utf-8"></script>
+</html>
